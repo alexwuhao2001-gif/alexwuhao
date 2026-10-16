@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Welcome App</string>
+    <string name="welcome_title">欢迎使用</string>
+    <string name="welcome_message">你的 Android 应用已准备就绪。
+从这里开始，创造新的精彩。</string>
+    <string name="welcome_technology">Kotlin · Jetpack Compose</string>
+</resources>
