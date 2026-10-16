@@ -31,4 +31,6 @@ Push、Pull Request 和手动触发都会安装 JDK、Android SDK 与固定版�
 
 ## 当前验证状态
 
-创建环境没有 Gradle 和 Android SDK，且网络代理不可达，因此尚未执行 Kotlin 编译、Lint 或设备运行验证。GitHub Actions 也尚未运行；以实际成功的工作流结果为编译通过依据。
+已通过 GitHub Actions 执行 `:app:assembleDebug :app:lintDebug`，并成功上传 Debug APK：[构建记录](https://github.com/alexwuhao2001-gif/alexwuhao/actions/runs/38933430150)。
+
+本地创建环境没有 Gradle 和 Android SDK，且网络代理不可达；尚未执行设备或模拟器运行验证。
